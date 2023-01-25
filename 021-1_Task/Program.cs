@@ -33,13 +33,11 @@ class Point
         get {return zCoordinates;} 
         set {zCoordinates = value;}
     }
-    public int count;
     public Point(int xCoordinates, int yCoordinates, int zCoordinates) // Конструктор, создающий точку с заданными координатами
     {
         this.xCoordinates = xCoordinates;
         this.yCoordinates = yCoordinates;
         this.zCoordinates = zCoordinates;
-        this.count = count;
     }
     public void Print() // Метод выведения координаты точки на экран
     {
